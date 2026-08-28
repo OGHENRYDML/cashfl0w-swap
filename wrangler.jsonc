@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cashfl0w-swap",
+  "main": "dist/index.js",
+  "compatibility_date": "2025-01-01",
+  "vars": {
+    "FEE_BPS": "10",
+    "FEE_TOKEN": "buy",
+    "CHAIN_ID": "8453",
+    "RPC_URL": "https://mainnet.base.org",
+    "FEE_RECIPIENT": "0x0000000000000000000000000000000000000000"
+  }
+}

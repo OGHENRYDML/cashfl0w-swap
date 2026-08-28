@@ -1,0 +1,25 @@
+{
+  "name": "cashfl0w-swap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Swap API relay — 0x aggregator with our affiliate fee on top.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "viem": "^2.21.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@hono/node-server": "^1.13.0",
+    "@types/node": "^22.5.0",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
