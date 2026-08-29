@@ -62,8 +62,14 @@ service works).
 
 ```sh
 npm install
-npm run dev        # http://localhost:8787
+cp .env.example .env   # fill in ZEROEX_API_KEY and FEE_RECIPIENT
+npm run dev            # http://localhost:8787
 ```
+
+## Client SDK
+
+Drop-in client for the API (token symbols + human amounts, one-line execution
+with a private key): [cashfl0w-swap-client](https://github.com/OGHENRYDML/cashfl0w-swap-client).
 
 ## Deploy (Cloudflare Workers)
 
