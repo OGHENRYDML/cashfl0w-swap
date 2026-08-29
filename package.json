@@ -2,6 +2,7 @@
   "name": "cashfl0w-swap",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Swap API relay — 0x aggregator with our affiliate fee on top.",
   "type": "module",
   "scripts": {
